@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+</head>
+<body>
+    <div>
+        <% posts.forEach(post => { %>
+            <h1>ID: <%= post.id %></h1>
+            <h1>Username: <%= post.username %></h1>
+            <h1>Password: <%= post.password %></h1>
+            <hr>
+        <% }); %>
+    </div>
+</body>
+</html>
